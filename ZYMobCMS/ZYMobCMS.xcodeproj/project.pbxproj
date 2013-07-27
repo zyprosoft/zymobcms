@@ -421,10 +421,10 @@
 		E47F0F7D17A35C330011780E /* ZYMobCMS */ = {
 			isa = PBXGroup;
 			children = (
+				E47F111617A366940011780E /* Application */,
+				E47F111517A3668A0011780E /* Resource */,
 				E47F0FA817A35D800011780E /* BFFoundation */,
 				E47F0F9517A35C620011780E /* Main */,
-				E47F0F8617A35C330011780E /* ZYMobCMSAppDelegate.h */,
-				E47F0F8717A35C330011780E /* ZYMobCMSAppDelegate.m */,
 				E47F0F7E17A35C330011780E /* Supporting Files */,
 			);
 			path = ZYMobCMS;
@@ -1067,6 +1067,22 @@
 				E47F110A17A361140011780E /* JSONKit.m */,
 			);
 			path = BFJSON;
+			sourceTree = "<group>";
+		};
+		E47F111517A3668A0011780E /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+		E47F111617A366940011780E /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				E47F0F8617A35C330011780E /* ZYMobCMSAppDelegate.h */,
+				E47F0F8717A35C330011780E /* ZYMobCMSAppDelegate.m */,
+			);
+			name = Application;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
